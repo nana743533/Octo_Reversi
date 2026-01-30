@@ -6,3 +6,4 @@
 ## 例
 - `setup-env.sh`: 環境構築スクリプト
 - `deploy.sh`: デプロイスクリプト
+- `commit.md`: Semantic Commit Message（日本語）による対話的なコミット
