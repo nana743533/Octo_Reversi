@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+dist/
+build/
+*.log
+
+# System
+.DS_Store
+
+# Secrets & Keys
+*.pem
+*.key
+.env
+.env.*
+
+# Editor
+.vscode/
+.idea/
