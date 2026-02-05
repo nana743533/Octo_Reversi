@@ -12,6 +12,7 @@ build/
 *.key
 .env
 .env.*
+.secret/
 
 # Editor
 .vscode/
