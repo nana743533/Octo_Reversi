@@ -60,7 +60,7 @@ export const Button: React.FC<ButtonProps> = ({
       },
     };
 
-    return { ...baseStyle, ...variantStyles[variant], ...(disabled && styles.disabled) };
+    return { ...baseStyle, ...variantStyles[variant], ...(disabled ? styles.disabled : {}) };
   };
 
   const getTextStyle = (): TextStyle => {

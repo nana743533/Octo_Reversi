@@ -72,7 +72,7 @@ export const RankingScreen: React.FC = () => {
           {mockPlayers.map((player) => (
             <Card key={player.id} style={styles.playerCard}>
               <View style={styles.playerRank}>
-                <Text style={[styles.playerRankText, player.rank <= 3 && styles.playerRankTop]}>
+                <Text style={[styles.playerRankText, player.rank <= 3 ? styles.playerRankTop : undefined]}>
                   #{player.rank}
                 </Text>
               </View>
